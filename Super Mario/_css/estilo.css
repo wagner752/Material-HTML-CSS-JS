@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(#0b88ff, #95eeff);
+    /*background-image: url("../../Meteoros/_imagens/background.jpg");*/
+    background-position: fixed;
+    width: 3000px;
+    height: 800px;
+    /*overflow-x: hidden;*/
+}
+
+#content{
+    position: absolute;
+}
+
+h1{
+    display: none;
+}
+
+.img-parallax{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.img-piso{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* IMAGENS */
+
+#layer4{
+    background-image: url("../_imagens/floor.jpg");
+    background-repeat: repeat-x;
+    background-position: absolute;
+    background-position-y: 100%;
+    background-position-x: 20%;
+    background-size: auto 35px;
+}
+
+#layer2{
+    background-image: url("../_imagens/MarioPulando.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 20%;
+    background-position-y: 94.5%;
+    background-size: 120px 100px;
+}
+
+#layer3{
+    background-image: url("../_imagens/Cano.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 40%;
+    background-position-y: 94.8%;
+    background-size: 75px 100px; 
+}
+
+#layer1{
+    background-image: url("../_imagens/Lakitu.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 90%;
+    background-position-y: auto;
+    background-size: 80px 90px;
+}
+
+#layer5body{
+    background-image: linear-gradient(#0b88ff, #95eeff);
+    /*background-image: url("../../Meteoros/_imagens/background.jpg");*/
+    background-position: fixed;
+    width: 3000px;
+    height: 800px;
+    /*overflow-x: hidden;*/
+}
+
+#content{
+    position: absolute;
+}
+
+h1{
+    display: none;
+}
+
+.img-parallax{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.img-piso{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* IMAGENS */
+
+#layer-piso{
+    background-image: url("../_imagens/floor.jpg");
+    background-repeat: repeat-x;
+    background-position: absolute;
+    background-position-y: 100%;
+    background-position-x: 20%;
+    background-size: auto 35px;
+}
+
+#layer-mario{
+    background-image: url("../_imagens/MarioPulando.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 20%;
+    background-position-y: 94.5%;
+    background-size: 120px 100px;
+}
+
+#layer-cano{
+    background-image: url("../_imagens/Cano.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 40%;
+    background-position-y: 94.8%;
+    background-size: 75px 100px; 
+}
+
+#layer-lakitu{
+    background-image: url("../_imagens/Lakitu.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: 90%;
+    background-position-y: auto;
+    background-size: 80px 90px;
+}
+
+#layer-luigi{
+    background-image: url("../_imagens/Luigi.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100px 120px;
+    background-position-x: 80%;
+    background-position-y: 94.8%;
+}
