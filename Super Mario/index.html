@@ -13,25 +13,35 @@
 
     <!-- SCRIPT -->
     <script src="_script/script.js"></script>
-
-    <title></title>
-  </head>
-  <body>
-
-    <section>
-        <div id="layer-lakitu" class="img-parallax"></div>
-        <div id="layer-mario" class="img-parallax"></div>
-        <div id="layer-cano"  class="img-parallax"></div>
-        <div id="layer-piso"  class="img-parallax"></div>
-        <div id="layer-luigi" class="img-parallax"></div>
-    </section>
-
-    <article id="content"></article>
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="_script/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <title>Super Mario - Parallax</title>
+  </head>
+  <body onload="parallax()">
+
+    <div id="layer-flyBomb"></div>
+
+    <div class="container col-12"> <!--Animações com o cursor-->
+      <div id="scene"> 
+        <div data-depth="0.2" class="size" id="layer-koopaTroopaFly"></div>
+        <div data-depth="0.2" class="size" id="layer-cloud"></div>
+        <div data-depth="0.06" class="size" id="layer-cano"></div>
+        <div data-depth="0.06" class="size" id="layer-luigi"></div>
+        <div data-depth="0.06" class="size" id="layer-bomb"></div>
+        <div data-depth="0.06" class="size" id="layer-koopaTroopa"></div>
+        <div data-depth="0.08" class="size" id="layer-mario"></div>
+        <div data-depth="0.1" class="size" id="layer-bullet"></div>
+        <div data-depth="0.2" class="size" id="layer-logo"></div>
+        <div data-depth="0.6" class="size" id="layer-lakitu"></div>
+      
+      </div>
+    </div>
+
+    <div id="layer-yoshiEgg"></div>
+    <div id="layer-boo"></div>
+    <div id="layer-piso"></div>
+    
   </body>
 </html>

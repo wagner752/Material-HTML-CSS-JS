@@ -1,142 +1,166 @@
 body{
-    background-image: linear-gradient(#0b88ff, #95eeff);
-    /*background-image: url("../../Meteoros/_imagens/background.jpg");*/
-    background-position: fixed;
-    width: 3000px;
-    height: 800px;
-    /*overflow-x: hidden;*/
-}
-
-#content{
-    position: absolute;
-}
-
-h1{
-    display: none;
-}
-
-.img-parallax{
-    position: fixed;
+    background-color: blue;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
-.img-piso{
-    position: fixed;
-    width: 100%;
+.size {
     height: 100%;
-}
-
-/* IMAGENS */
-
-#layer4{
-    background-image: url("../_imagens/floor.jpg");
-    background-repeat: repeat-x;
-    background-position: absolute;
-    background-position-y: 100%;
-    background-position-x: 20%;
-    background-size: auto 35px;
-}
-
-#layer2{
-    background-image: url("../_imagens/MarioPulando.png");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 20%;
-    background-position-y: 94.5%;
-    background-size: 120px 100px;
-}
-
-#layer3{
-    background-image: url("../_imagens/Cano.png");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 40%;
-    background-position-y: 94.8%;
-    background-size: 75px 100px; 
-}
-
-#layer1{
-    background-image: url("../_imagens/Lakitu.png");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 90%;
-    background-position-y: auto;
-    background-size: 80px 90px;
-}
-
-#layer5body{
-    background-image: linear-gradient(#0b88ff, #95eeff);
-    /*background-image: url("../../Meteoros/_imagens/background.jpg");*/
-    background-position: fixed;
-    width: 3000px;
-    height: 800px;
-    /*overflow-x: hidden;*/
-}
-
-#content{
-    position: absolute;
-}
-
-h1{
-    display: none;
-}
-
-.img-parallax{
-    position: fixed;
     width: 100%;
-    height: 100%;
 }
 
-.img-piso{
-    position: fixed;
+#scene{
     width: 100%;
-    height: 100%;
+    height: 1000px;
 }
 
-/* IMAGENS */
-
-#layer-piso{
-    background-image: url("../_imagens/floor.jpg");
-    background-repeat: repeat-x;
-    background-position: absolute;
-    background-position-y: 100%;
-    background-position-x: 20%;
-    background-size: auto 35px;
-}
-
-#layer-mario{
-    background-image: url("../_imagens/MarioPulando.png");
+#layer-logo{
+    background-image: url("../_imagens/logo-mario.png");
     background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 20%;
-    background-position-y: 94.5%;
-    background-size: 120px 100px;
-}
-
-#layer-cano{
-    background-image: url("../_imagens/Cano.png");
-    background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 40%;
-    background-position-y: 94.8%;
-    background-size: 75px 100px; 
+    background-size: 350px 200px;
+    background-position: 690px 200px;
 }
 
 #layer-lakitu{
     background-image: url("../_imagens/Lakitu.png");
     background-repeat: no-repeat;
-    background-position: absolute;
-    background-position-x: 90%;
-    background-position-y: auto;
-    background-size: 80px 90px;
+    background-size: 100px 140px;
+    background-position: 90% 2% ;
+}
+
+#layer-mario{
+    background-image: url("../_imagens/Mario_yoshi.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: 15% 95%;
+}
+
+#layer-cano{
+    background-image: url("../_imagens/Cano.png");
+    background-repeat: no-repeat;
+    background-size: 70px 150px;
+    background-position: 25% 95%;   
 }
 
 #layer-luigi{
     background-image: url("../_imagens/Luigi.png");
-    background-position: absolute;
     background-repeat: no-repeat;
-    background-size: 100px 120px;
-    background-position-x: 80%;
-    background-position-y: 94.8%;
+    background-size: 70px 100px;
+    background-position: 45% 95%;
+}
+
+#layer-bomb{
+    background-image: url("../_imagens/bomb.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 80% 95%; 
+}
+
+#layer-koopaTroopa{
+    background-image: url("../_imagens/koopaTroopa.png");
+    background-repeat: no-repeat;
+    background-size: 70px 80px;
+    background-position: 32% 95%;
+}
+
+#layer-koopaTroopaFly{
+    background-image: url("../_imagens/koopaTroopaFly.png");
+    background-repeat: no-repeat;
+    background-size: 70px 80px;
+    background-position: 2% 5%;
+}
+
+#layer-bullet{
+    background-image: url("../_imagens/bullet.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: 90% 75%;
+}
+
+#layer-cloud{
+    background-image: url("../_imagens/cloud.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: 20% 10%;
+}
+
+#layer-boo{
+    width: 110px;
+    height: 110px;
+    background-image: url("../_imagens/booClosed.png");
+    background-repeat: no-repeat;
+    background-size: 105px 105px;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 2%;
+    opacity: 0.1;
+}
+
+#layer-boo:hover{
+    background-image: url("../_imagens/boo.png");
+    width: 130px;
+    height: 130px;
+    background-size: 105px 105px;
+    background-position: 10px 10px;
+    opacity: 1;
+    transition: 1s;
+}
+
+#layer-piso{
+    height: 100%;
+    width: 100%;
+    background-image: url("../_imagens/floor.jpg");
+    background-size: 20px 20px;
+    margin-top: -2.5%;
+    position: absolute;
+}
+
+#layer-flyBomb{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 65%;
+    background-image: url("../_imagens/flyBomb.png");
+    background-repeat: no-repeat;
+    background-size: 90px 80px;
+    animation: flyBombAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes flyBombAnimation{
+    from{
+        top: -10%;
+        left: -60%;
+    }
+    to{
+        top: 30%;
+        left: 45%;
+        transform: rotate(65deg);
+    }
+}
+
+#layer-yoshiEgg{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    background-image: url("../_imagens/yoshiEgg.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px; 
+    top: 91.5%;
+    left: 60%;
+    animation: yoshiEggAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes yoshiEggAnimation{
+    from{
+        top: 92%;
+    }
+    to{
+        top: 91%;
+    }
 }
